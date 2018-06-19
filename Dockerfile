@@ -1,6 +1,7 @@
 FROM node:6.14.3-alpine
 MAINTAINER Lework <lework@yeah.net>
 
+ARG TZ=Asia/Shanghai
 ENV LOGIO_SERVICE=''
 
 COPY entrypoint.sh  /usr/bin/entrypoint.sh
